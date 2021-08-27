@@ -1,0 +1,210 @@
+body {
+  /* background-color: #000000; */
+  background: url(starry-sky-1654074_1920.jpg);
+}
+
+.toolTip {
+  display: none;
+  position: absolute;
+  height: 160px;
+  padding: 10px;
+  font: 12px sans-serif;
+  text-align: center;
+  background: white;
+  border: 0;
+  border-radius: 10px;
+}
+
+.toolTip3 {
+  display: none;
+  position: absolute;
+  height: 160px;
+  padding: 10px;
+  font: 12px sans-serif;
+  text-align: center;
+  background: white;
+  border: 0;
+  border-radius: 10px;
+}
+
+.planetCircle {
+  stroke: #e3e3e3;
+}
+
+.orbit {
+  stroke : rgb(145, 134, 134);
+  fill : none;
+  stroke-opacity: .1;
+}
+
+.stellarA {
+fill: url(#stellarA);
+}
+.stellarB {
+fill: url(#stellarB);
+}
+.stellarK {
+fill: url(#stellarK);
+}
+.stellarG {
+fill: url(#stellarG);
+}
+.stellarF {
+fill: url(#stellarF);
+}
+
+.stellarM {
+fill: url(#stellarM);
+}
+
+
+.exoExplain {
+  font-size: 20px;
+  font-family: 'Oswald';
+  fill: purple;
+  text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 55px #ff00de, 0 0 75px #ff00de;
+
+}
+
+.exoTitle {
+  font-size: 20px;
+  font-family: 'Oswald';
+  fill: purple;
+  text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 55px #ff00de, 0 0 75px #ff00de;
+
+}
+
+.exoExplain2 {
+  font-size: 20px;
+  font-family: 'Oswald';
+  fill: purple;
+  text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 55px #ff00de, 0 0 75px #ff00de;
+
+}
+
+.sun {
+  stroke : #000000;
+  fill : #000000;
+  /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B; */
+
+}
+
+.selected-planets {
+fill: purple;
+/* fill: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 55px #ff00de, 0 0 75px #ff00de; */
+/* background-color: white; */
+text-align: center;
+}
+/* text shadow is a neon color */
+.stellarB:hover {
+font-size: 20px;
+font-family: 'Oswald';
+color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 55px #ff00de, 0 0 75px #ff00de;
+text-align: center;
+}
+
+.stellarA:hover {
+  font-size: 20px;
+  font-family: 'Oswald';
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 55px #ff00de, 0 0 75px #ff00de;
+  text-align: center;
+}
+.stellarF:hover {
+font-size: 20px;
+font-family: 'Oswald';
+color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 55px #ff00de, 0 0 75px #ff00de;
+text-align: center;
+}
+
+.stellarG:hover {
+  font-size: 20px;
+  font-family: 'Oswald';
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 55px #ff00de, 0 0 75px #ff00de;
+  text-align: center;
+}
+.stellarK:hover {
+    font-size: 20px;
+    font-family: 'Oswald';
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 55px #ff00de, 0 0 75px #ff00de;
+    text-align: center;
+}
+
+.stellarM:hover {
+font-size: 20px;
+font-family: 'Oswald';
+color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 55px #ff00de, 0 0 75px #ff00de;
+text-align: center;
+}
+/* .planet-body {
+  fill: orangered;
+} */
+
+/* .tooltip {
+  z-index: 1000;
+  position: absolute;
+  /* fill: orchid; */
+/* } */ 
+.tooltip-container {
+  position: absolute;
+  bottom: 0;
+  width: 200px;
+  /* left: -115px; 230/2 */
+  font-size: 12px;
+  line-height: 16px;
+  padding: 10px;
+  border-radius: 3px;
+  background: rgba(255,255,255,0.9);
+  color: #000;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4);  
+  border:1px solid rgba(200,200,200,0.85);
+  text-align:center;
+  cursor: default;
+}
+.radius_planet{
+  position: absolute;
+  bottom: 0;
+  width: 230px;
+  /* left: -115px; 230/2 */
+  font-size: 12px;
+  line-height: 16px;
+  padding: 10px;
+  border-radius: 3px;
+  background: rgba(255,255,255,0.9);
+  color: #000;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4);  
+  border:1px solid rgba(200,200,200,0.85);
+  text-align:center;
+  cursor: default;
+}
+
+#tooltip {
+  text-align:center;  
+  z-index: 1000;
+  background: white;
+  position: absolute;
+  color: rgb(189, 21, 204);
+  /* opacity: 0; */
+}
+
+#tooltip .tooltip-tail {
+  position: absolute;
+  bottom: -8px;
+  left: 105px;
+  width: 40px;
+  height: 8px;
+  /* background: url(../img/tail_white.png) 50% 0%; */
+}
+
+#container {
+  width: 500px;
+  margin: auto;
+}
+
